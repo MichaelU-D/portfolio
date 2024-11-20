@@ -54,7 +54,37 @@ Have fun creating your portfolio on this template!!! -->
     </script>
   </head>
   <body>
+<style>
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.hero-left {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-logo {
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.hero-logo:hover {
+  transform: scale(1.1);
+}
+
+.hero-right {
+  flex: 2;
+  text-align: left;
+}
+</style>
+    
 <!-- Section Héro -->
 <div id="hero">
   <section class="container hero-content">
